@@ -1,0 +1,21 @@
+.app-header {
+  display: flex;
+  padding-inline: 16px;
+  padding-block: 8px;
+  background-color: white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    > a {
+        cursor: pointer;
+        &:hover {
+            color: bisque;
+        }
+    }
+  }
+}
